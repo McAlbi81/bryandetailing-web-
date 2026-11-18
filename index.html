@@ -116,7 +116,7 @@
 footer a{color:#baff00;text-underline-offset:3px}
 @media(max-width:700px){.price-surcharges{grid-template-columns:1fr}.item-price-head,.item-price-row{padding:12px}}
 
-.photo-open{display:block;min-width:0;padding:2px;border:0;background:#343e2c;cursor:zoom-in;clip-path:polygon(6% 0,96% 0,100% 8%,100% 89%,94% 100%,4% 100%,0 92%,0 11%);transition:background-color .2s ease,transform .2s ease}
+.photo-open{display:block;min-width:0;padding:2px;border:0;background:#343e2c;cursor:zoom-in;clip-path:polygon(16px 0,calc(100% - 16px) 0,100% 16px,100% calc(100% - 16px),calc(100% - 16px) 100%,16px 100%,0 calc(100% - 16px),0 16px);transition:background-color .2s ease,transform .2s ease}
 .photo-open:focus-visible{background:var(--lime)}
 @media (hover:hover){.photo-open:hover{background:var(--lime);transform:translateY(-3px)}}
 @media (prefers-reduced-motion:reduce){.photo-open{transition:none}.photo-open:hover{transform:none}}
